@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <style>
+            
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* margin: 10px; */
+        }
+        body{
+            background-color: #fff;
+        }
+       
+        li{
+            font-size: larger;
+        }
+      img{
+        float: center;
+       
+    }
+      .caption{
+        float: right;
+    }
+
+    a:link, a:visited {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+}
+
+    </style>
+    <body>
+        <fieldset>
+        <h1 align="center">FORM</h1>
+        <form action="/action_page.php">
+            <label for="fname"><strong>First name:</strong></label>
+            <br>
+            <br>
+            <input type="text" id="fname"  value="Your first name" required>
+            <br>
+            <br>
+            <label for="lname" ><b>Last name:</b></label>
+            <br>
+            <br>
+            <input type="email" id="lname"  value="Your last name" required>
+            <br>
+            <br>
+            <label><b>Email*</b></label><br><br>
+            <input type="text" id="email"  value="Your email address" required>
+            <br>
+            <br>
+            <label><b>Address:</b></label><br><br>
+            <textarea cols="30" rows="5" value="Your postal address" required></textarea>
+            <br>
+            <br>
+            <label><b>city</b></label>
+            <br>
+            <br>
+            <input type="text" value="city" required>
+            <br>
+            <br>
+            <label><b>zip code</b></label>
+            <br>
+            <br>
+            <input type="text" value="zip code" required>
+            <br>
+            <br>
+            <label><b>state</b></label>
+            <br>
+            <br>
+            <select>
+                <optgroup>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Andhra Pradesh">Karnataka</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label><b>country</label></form></b>
+            <br>
+            <select>
+                <optgroup>
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Canada">Canada</option>
+                   
+                </optgroup>
+            </select><br><br>
+            <strong> Registration Package</strong><br>
+            <input type="radio" name="Registration Package"> Standard Registration($50 USD)<br>
+            <input type="radio"  name="Registration Package"> Premium Registration($90 USD)<br>
+            <input type="radio"  name="Registration Package"> Coporate Registration($200 USD)<br>
+            <br>
+            <br>
+            <strong>Accommodation Package</strong><br>
+            <input type="radio" name="Accommodation Package"> None<br>
+            <input type="radio"  name="Accommodation Package"> 2 Days in 3 star Hotel($300 USD)<br>
+            <input type="radio"  name="Accommodation Package"> 2 Days in 4 Star Hotel($550 USD)<br>
+            <input type="checkbox"  name="Accommodation Package"> I'm also buying the t-shirt of the event($10 USD)<br>
+            <br>
+            <br>
+            <strong> Discount</strong><br>
+            <input type="radio" name="Discount"> Early bird discount(-$10 USD)<br>
+            <input type="radio"  name="Discount"> Student discount(-30%)<br>
+            <input type="radio"  name="Discount"> No thanks,I don't want a discount<br>
+            <br>
+            <br>
+            <input type="checkbox">I have read and agree to the waiver<br>
+            <input type="checkbox">I have read and accept the of Serivce and Privacy Policy <br>
+            <br>
+            
+            <!-- <input type="submit"> --><br>
+            <br>
+            <a href="default.asp" target="_blank">Submit</a>
+
+          </form> 
+    </body>
+</fieldset>
+</html>
